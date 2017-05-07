@@ -5,7 +5,7 @@
 
 ./Project1
 
-	./readme.md=目录结构说明
+	./readme.md 目录结构说明
   
 	./static
   
@@ -35,12 +35,19 @@
 
 	./dynamic
 		./readme.md
+		
 		./log
+		
 		./trace
+		
 		./source
+		
 		./partitionCluster:
+		
 		./partitionApi:
+		
 		./partitionWorkflow:
+		
 
 ./project2
 ……
