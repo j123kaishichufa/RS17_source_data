@@ -1,0 +1,5 @@
+0,P,org.mybatis.jpetstore.web.actions.AbstractActionBean
+0,C,org.mybatis.jpetstore.web.actions.OrderActionBean
+0,C,org.mybatis.jpetstore.web.actions.CatalogActionBean
+0,C,org.mybatis.jpetstore.web.actions.CartActionBean
+0,C,org.mybatis.jpetstore.web.actions.AccountActionBean
