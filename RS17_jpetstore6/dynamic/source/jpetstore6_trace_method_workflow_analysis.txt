@@ -1,0 +1,60 @@
+# 0
+AccountActionBean.isAuthenticated -> domain.Account.getUsername
+
+# 1
+CatalogService.getItemListByProduct-> ItemMapper.getItemListByProduct -> Domain.Item.XXX
+																	  -> ...
+																	  -> Domain.Product.XXX
+																	  -> ...
+CatalogActionBean.viewProduct -> CatalogService.getProduct -> ProductMapper.getProduct -> Domain.Product.XXX
+																					   -> ...
+# 2																									
+CatalogActionBean.viewCategory -> catalogService.getProductListByCategory -> ProductMapper.getProductListByCategory -> Domain.Product.XXX
+																													-> ..
+# 3
+OrderActionBean.listOrders -> AccountActionBean.getAccount
+						   -> Domain.Account.getUsername
+						   -> OrderService.getOrdersByUsername -> OrderMapper.getOrdersByUsername -> Domain.Order.XXX
+																								  -> ...
+# 4
+CartActionBean.addItemToCart -> Domain.Cart.containsItemID
+							 -> Domain.Cart.incrementQuantityByItemID -> Domain.CartItem.incrementQuantity -> CartItem.calculateTotal -> Domain.Item.getListPrice
+
+# 5
+CartActionBean.removeItemFromCart -> domain.Cart.removeItemById	-> domain.CartItem.getItem
+
+# 6 (same to #3)
+OrderActionBean.listOrders -> AccountActionBean.getAccount
+						   -> Domain.Account.getUsername
+						   -> OrderService.getOrdersByUsername -> OrderMapper.getOrdersByUsername -> Domain.Order.XXX
+																								  -> ...				 
+# 7																								 
+OrderActionBean.newOrderForm -> OrderActionBean.clear -> domain.Order.<init>  																							
+							 -> AccountActionBean.isAuthenticated -> domain.Account.getUsername	
+							 ->	AccountActionBean.getAccount
+							 -> CartActionBean.getCart
+							 -> domain.Order.initOrder -> Domain.Account.XXX
+													   -> ...
+													   -> Domain.Cart.getSubTotal -> Domain.Cart/CartItem/Item..XXX
+													   -> domain.Cart.getAllCartItems
+													   -> domain.Order.addLineItem -> domain.LineItem.<init> -> domain.CartItem.getQuantity
+													                                                         -> domain.CartItem/Item.XXX
+																											 -> ...
+																				   -> domain.Order.addLineItem
+# 8
+AccountActionBean.editAccount -> AccountService.updateAccount -> AccountMapper.updateAccount -> Domain.Account.XXX
+																							 -> ...
+							  -> domain.Account.getUsername
+							  -> AccountService.getAccount -> AccountMapper.getAccount -> Domain.Account.XXX
+																					   -> ...
+							  -> Account.getFavouriteCategoryId	
+							  -> CatalogService.getProductListByCategory -> ProductMapper.getProductListByCategory -> Domain.Product.XXX
+	
+																											   -> ...
+# 9
+CatalogActionBean.viewProduct -> CatalogService.getItemListByProduct -> ItemMapper.getItemListByProduct -> Domain.Product.XXX
+																										-> ...
+																										-> Domain.Item.XXX
+																										-> ...
+							  -> CatalogService.CatalogService.getProduct -> ProductMapper.getProduct -> Domain.Product.XXX
+																									  -> ...
