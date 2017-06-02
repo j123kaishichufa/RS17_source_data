@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="1" title="commuCost" type="integer" />
+      <attribute id="2" title="perfCost" type="integer" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="vmname" type="string" />
+    </attributes>
+    <nodes>
+      <node id="0" label="org.mybatis.jpetstore.mapper.BaseSqlMapDao">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="1" label="org.mybatis.jpetstore.mapper.ItemMapper">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="2" label="org.mybatis.jpetstore.mapper.SequenceMapper">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="3" label="org.mybatis.jpetstore.mapper.AccountMapper">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="4" label="org.mybatis.jpetstore.mapper.CategoryMapper">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="5" label="org.mybatis.jpetstore.mapper.ProductMapper">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="6" label="org.mybatis.jpetstore.mapper.OrderMapper">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="7" label="org.mybatis.jpetstore.persistence.DaoConfig">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="8" label="org.mybatis.jpetstore.service.CatalogService">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="9" label="org.mybatis.jpetstore.web.actions.AbstractActionBean">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="10" label="org.mybatis.jpetstore.web.actions.CatalogActionBean">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="11" label="org.mybatis.jpetstore.domain.Product">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="12" label="org.mybatis.jpetstore.domain.Category">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="13" label="org.mybatis.jpetstore.domain.Item">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="14" label="org.mybatis.jpetstore.domain.Cart">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="15" label="org.mybatis.jpetstore.web.actions.CartActionBean">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="16" label="org.mybatis.jpetstore.domain.CartItem">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="17" label="org.mybatis.jpetstore.service.AccountService">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="18" label="org.mybatis.jpetstore.service.OrderService">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="19" label="org.mybatis.jpetstore.domain.Order">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="20" label="org.mybatis.jpetstore.web.actions.OrderActionBean">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="21" label="org.mybatis.jpetstore.domain.Account">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="22" label="org.mybatis.jpetstore.web.actions.AccountActionBean">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="23" label="org.mybatis.jpetstore.domain.LineItem">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+      <node id="24" label="org.mybatis.jpetstore.domain.Sequence">
+        <attvalues>
+          <attvalue for="0" value="jwx-PC" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1" target="19">
+        <attvalues>
+          <attvalue for="1" value="8" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="1" target="11">
+        <attvalues>
+          <attvalue for="1" value="13" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="1" target="13">
+        <attvalues>
+          <attvalue for="1" value="406" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="1" target="23">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="2" target="24">
+        <attvalues>
+          <attvalue for="1" value="12" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="3" target="21">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="4" target="12">
+        <attvalues>
+          <attvalue for="1" value="15" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="5" target="11">
+        <attvalues>
+          <attvalue for="1" value="408" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="6" target="19">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="6" target="23">
+        <attvalues>
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="7" target="0">
+        <attvalues>
+          <attvalue for="1" value="12" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="7" target="1">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="7" target="2">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="7" target="3">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="7" target="4">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="7" target="5">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="7" target="6">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="8" target="1">
+        <attvalues>
+          <attvalue for="1" value="322" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="8" target="4">
+        <attvalues>
+          <attvalue for="1" value="31" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="8" target="5">
+        <attvalues>
+          <attvalue for="1" value="41" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="8" target="7">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="10" target="8">
+        <attvalues>
+          <attvalue for="1" value="46" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="10" target="9">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="10" target="13">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="14" target="16">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="14" target="13">
+        <attvalues>
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="15" target="8">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="15" target="16">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="15" target="13">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="15" target="14">
+        <attvalues>
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="16" target="13">
+        <attvalues>
+          <attvalue for="1" value="10" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="17" target="3">
+        <attvalues>
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="17" target="7">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="18" target="1">
+        <attvalues>
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="18" target="2">
+        <attvalues>
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="18" target="6">
+        <attvalues>
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="18" target="7">
+        <attvalues>
+          <attvalue for="1" value="1" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="18" target="19">
+        <attvalues>
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="18" target="23">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="19" target="21">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="19" target="14">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="19" target="23">
+        <attvalues>
+          <attvalue for="1" value="9" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="20" target="9">
+        <attvalues>
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="20" target="15">
+        <attvalues>
+          <attvalue for="1" value="2" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="20" target="18">
+        <attvalues>
+          <attvalue for="1" value="6" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="20" target="19">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="20" target="21">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="20" target="22">
+        <attvalues>
+          <attvalue for="1" value="186" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="22" target="8">
+        <attvalues>
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="22" target="17">
+        <attvalues>
+          <attvalue for="1" value="4" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="22" target="21">
+        <attvalues>
+          <attvalue for="1" value="30" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="23" target="16">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="23" target="13">
+        <attvalues>
+          <attvalue for="1" value="3" />
+          <attvalue for="2" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
