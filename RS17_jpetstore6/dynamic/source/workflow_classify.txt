@@ -1,8 +1,8 @@
 1.AccountActionBean操作
-（1）用户认证，获取用户名密码           #0 #32  #33
+（1）用户认证，获取用户名密码           #0 #32  #33 isAuthenticated()
 （2）设置用户名，密码
 （3）编辑账户信息：地址和产品类喜好等。 #14
-（4）单点登录                           #10          signon()
+（4）单点登录                         #10          signon()
 （5）其他：编辑账户表格；重置 
 
 2.Cart 操作
@@ -12,7 +12,7 @@
 （1）查看产品                           #9           viewProduct
 （2）查看产品分类                       #2           viewCategory
 （3）查看条目                           #24          viewItem
-（3）查找产品                           #21          searchProducts
+（4）查找产品                           #21          searchProducts
 
 4. CartActionBean 操作 
 （1）添加条目到购物车                   #4 #16       addItemToCart
